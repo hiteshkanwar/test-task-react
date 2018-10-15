@@ -1,0 +1,31 @@
+.button-content{
+    padding-left: 12px;
+    margin-left: 38%;
+    margin-top: 4%;
+    clear: both;
+}
+
+.search-filter{
+	margin: 25px;
+	padding: 0;
+}
+
+.search-filter li{
+	list-style: none;
+	float: left;
+	margin: 0 3px;
+}
+
+@media screen and (max-width:767px){
+	.search-filter li{
+		float: none;
+		margin: 7px 0;
+	}
+	.search-filter li input, .search-filter li select{
+		width: 100%;
+	}
+	.button-content{
+		margin-left: 0;
+		margin: 15px 0;
+	}
+}
